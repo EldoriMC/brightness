@@ -1,0 +1,5 @@
+{
+  "key.brightness.toggle": "Toggle Brightness",
+  "message.brightness.disabled": "§r§cGamma Disabled",
+  "message.brightness.enabled": "§r§aGamma Enabled"
+}

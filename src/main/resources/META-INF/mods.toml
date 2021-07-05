@@ -1,0 +1,28 @@
+# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
+modLoader="javafml"
+# A version range to match for said mod loader - for regular FML @Mod it will be the forge version
+# Forge for 1.16.3 is version 34
+loaderVersion="[35,)"
+license="MIT"
+
+[[mods]]
+  modId="brightness"
+  version = "${file.jarVersion}"
+  displayName="Brightness"
+  authors="Zeuss"
+  icon="icon.png"
+  description=''''''
+
+  [[dependencies.brightness]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35,36,)"
+    ordering="NONE"
+    side="BOTH"
+
+  [[dependencies.brightness]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.16.5]"
+    ordering="NONE"
+    side="BOTH"
